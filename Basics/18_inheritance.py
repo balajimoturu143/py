@@ -1,6 +1,6 @@
 class Vehicle:
     def general_usage(self):
-        print("general use: transporation")
+        print("general use: Transporation")
 
 class Car(Vehicle):
     def __init__(self):
@@ -10,7 +10,7 @@ class Car(Vehicle):
 
     def specific_usage(self):
         self.general_usage()
-        print("specific use: commute to work, vacation with family")
+        print("Specific use: commute to work, vacation with family")
 
 class MotorCycle(Vehicle):
     def __init__(self):
